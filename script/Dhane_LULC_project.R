@@ -41,3 +41,4 @@ for(i in names(myList)){
 }
 
 #Read data from Git "data folder"
+setwd("~/data/")
