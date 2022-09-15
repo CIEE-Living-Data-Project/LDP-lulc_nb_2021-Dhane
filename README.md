@@ -1,3 +1,4 @@
+
 title : *A Land Use Land Cover in New-Brunswick*
 
 shorttitle : *LULC NB*
@@ -14,3 +15,4 @@ This project aims to classify the land use land cover in the North-West of New-B
 
 ## Hypotheses
 The land use land cover has changed between 2000 and 2020.
+
