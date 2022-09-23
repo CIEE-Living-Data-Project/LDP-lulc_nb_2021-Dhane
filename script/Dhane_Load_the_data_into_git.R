@@ -2,8 +2,15 @@
 library(tidyverse)
 
 # Create folders
+getwd() # to get my directory
+
 dir.create("data/") #create data folder
 dir.create("script/") #Create script folder
+
+data.path <- "D:/Documents/LDP/Productivity and Reproducibility/Git/LDP-lulc_nb_2021-Dhane/data/"
+
+dir.create("data/raw")#create raw folder within data folder
+dir.create("data/clean")#crete clean data within data folder
 
 # Upload data from local drive
 data.path <- "D:/Documents/LDP/Productivity and Reproducibility/Data_tables_and_maps/Tables/"
@@ -32,7 +39,7 @@ myList <- list(Dhane_lulc_classes_code = Dhane_lulc_classes_code,
                Dhane_metadata = Dhane_metadata)
 
 # Set path
-path.out <- "D:/Documents/LDP/Productivity and Reproducibility/Git/LDP-lulc_nb_2021-Dhane/data"
+path.out <- "D:/Documents/LDP/Productivity and Reproducibility/Git/LDP-lulc_nb_2021-Dhane/data/raw"
 setwd(path.out)
 
 # Save 
