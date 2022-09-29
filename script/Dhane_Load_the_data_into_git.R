@@ -1,3 +1,5 @@
+#Notes: don't run this script if you fork this project. This script is to create the folders where the data and script will be archived.
+
 # Load libraries
 library(tidyverse)
 
